@@ -1,0 +1,26 @@
+Exemplo
+You said: Como faço para criar uma CDS View com join entre as tabelas EKKO e EKPO?
+
+ChatGPT said: Para criar uma CDS View com join entre as tabelas EKKO e EKPO, você pode usar a seguinte sintaxe:
+
+define view ZCDS_EKKO_EKPO as select from ekko
+    inner join ekpo on ekko.ebeln = ekpo.ebeln
+{
+    key ekko.ebeln,
+    ekko.bukrs,
+    ekko.lifnr,
+    ekpo.ebelp,
+    ekpo.matnr,
+    ekpo.menge
+}
+
+You said: Como aplico uma annotation para o campo aparecer como label?
+
+ChatGPT said: Use a annotation @EndUserText.label acima do campo desejado. Exemplo:
+
+@EndUserText.label: 'Material'
+matnr
+
+You said: Obrigado! Funcionou.
+
+ChatGPT said: Que bom que deu certo! Se precisar de mais ajuda com CDS ou qualquer coisa SAP, é só chamar!

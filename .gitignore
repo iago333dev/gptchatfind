@@ -1,0 +1,20 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Editor/OS specific
+.DS_Store
+Thumbs.db
+
+# Local dev environment
+.env
+.vscode/
+.idea/
+
+# App data
+*.log
+
+# Compiled outputs (if used)
+dist/
+build/
