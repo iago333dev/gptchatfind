@@ -18,8 +18,8 @@
 ### 1. Clone o projeto
 
 ```bash
-git clone https://github.com/seuusuario/gpt-chat-find.git
-cd gpt-chat-find
+git clone https://github.com/iago333dev/gptchatfind/
+cd gptchatfind
 ```
 
 ### 2. Instale as dependências
